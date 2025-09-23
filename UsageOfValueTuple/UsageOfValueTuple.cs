@@ -11,3 +11,5 @@ foreach (var (x, y) in new[] { (5, 6), (7, 8) })
     b += x + y;
     // x = y; // NG
 }
+var tuple = (a, b, c);
+tuple.Item2 = 100; // OK, can be compiled.
