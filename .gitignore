@@ -32,4 +32,6 @@
 *.app
 
 # my custom
-*.code-workspace
+.vscode
+
+# cSpell:ignore dylib smod
